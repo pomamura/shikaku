@@ -162,9 +162,6 @@ p { margin-bottom: 10px; }
     height: auto;
     padding: 3%
 }
-#about p { 
-    padding: 15px;
-}
 
 /* genre */
 #genre {
@@ -383,4 +380,36 @@ a.moreLink1 {
 a.moreLink1:hover {
     background: #fff;
     color: #FCD123!important;
+}
+
+/*商品カラム修正*/
+@media all and (min-width: 999px) {
+.bg-left{
+    margin: 6px 12px 12px 0;
+}
+.bg-center{
+    margin: 6px 6px 12px 6px;
+}
+.bg-right{
+    margin: 6px 0 12px 12px;
+}
+}
+@media all and (max-width: 999px) {
+    .ttl-bg{
+        margin-left:1.4%;
+    }
+}
+@media all and (max-width: 718px) {
+    .ttl-bg{
+        margin-left:0.5%;
+    }
+}
+
+#about {
+    background: #fff;
+}
+#about p{
+    font-size: 13pt;
+    font-weight: bold;
+    color: #000;
 }
