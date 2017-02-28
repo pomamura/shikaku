@@ -371,7 +371,7 @@ a.moreLink1 {
     width: 40%;
     text-align: center;
     margin: 20px auto;
-    background: #FCD123;
+    background: #F0B325;
     padding: 10px 0;
     color: #fff !important;
     text-decoration: none;
@@ -379,7 +379,7 @@ a.moreLink1 {
 }
 a.moreLink1:hover {
     background: #fff;
-    color: #FCD123!important;
+    color: #F0B325!important;
 }
 
 /*商品カラム修正*/
