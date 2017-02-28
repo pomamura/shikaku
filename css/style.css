@@ -397,6 +397,7 @@ a.moreLink1:hover {
 @media all and (max-width: 999px) {
     .ttl-bg{
         margin-left:1.4%;
+        font-size: 16px;
     }
 }
 @media all and (max-width: 718px) {
@@ -407,9 +408,16 @@ a.moreLink1:hover {
 
 #about {
     background: #fff;
+    border: 5px solid #b08562;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    width: 93%;
+    height: auto;
+    padding: 15px;
 }
 #about p{
-    font-size: 13pt;
-    font-weight: bold;
+    font-size: 10pt;
     color: #000;
+    margin: 0!important;
 }
